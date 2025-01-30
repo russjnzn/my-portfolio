@@ -1,0 +1,49 @@
+
+@media (max-width: 575px) {
+    /* Make navbar responsive */
+    .navbar-collapse {
+        display: none; /* Hide navbar items initially */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-toggler {
+        display: block !important; /* Ensure the burger menu is visible */
+    }
+
+    .navbar-toggler:focus + .navbar-collapse,
+    .navbar-toggler:active + .navbar-collapse,
+    .navbar-collapse.show {
+        display: block !important; /* Show navbar when toggled */
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar-brand img {
+        max-width: 80px; /* Resize logo for small screens */
+        height: auto;
+    }
+
+    /* Reduce padding and margins for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
