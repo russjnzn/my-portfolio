@@ -478,6 +478,12 @@ p{
         text-align: center;
         
     }
+    #contact h3 {
+        font-size: 1.5rem;
+    }
+    #contact p {
+        font-size: 1.2rem;
+    }
 }
 @media (max-width: 992px) {  
     .testimonial-item h3 {
@@ -488,6 +494,13 @@ p{
         font-size: 1rem !important;
         text-align: center;
     }
+    #contact h3 {
+        font-size: 1.1rem;
+    }
+    #contact p {
+        font-size: 1rem;
+    }
+    
 }
 
 @media (max-width: 768px) {  
@@ -499,6 +512,16 @@ p{
         font-size: 1rem !important;
         text-align: center;
     }
+    #contact {
+        text-align: center;
+    }
+    #contact h3 {
+        font-size: 1.3rem;
+    }
+    #contact p {
+        font-size: 1rem;
+    }
+    
 }
 
 @media (max-width: 576px) {  
@@ -507,6 +530,12 @@ p{
     }
     .testimonial-item p {
         font-size: 0.9rem !important;
+    }
+    #contact h3 {
+        font-size: 1rem;
+    }
+    #contact p {
+        font-size: 0.9rem;
     }
 }
 
