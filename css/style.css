@@ -5,7 +5,16 @@
     --light: #f5f5f5;
     --dark: #12141D;
 }
+p{
+    text-align: justify;
+}
 
+
+
+.justify-text{
+    display: block; /* Convert span to block-level */
+    text-align: justify;  
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -109,6 +118,29 @@
     background: url(../img/bg-header4.png) left top no-repeat;
 }
 
+@media (max-width: 550px) {
+    #home {
+        margin-bottom: 0rem;
+        background: url(../img/bg-header-small.png) center top no-repeat;
+    }
+
+    #home .col-lg-6 {
+        align-content: center;
+        
+    }
+    #home img{
+        display: none;
+    }
+    
+   
+    #about {
+        text-align: justify;
+    }
+    #about h5 {
+        
+        font-size: 0.875rem;
+    }
+}
 
 
 .typed-cursor {
